@@ -1,4 +1,5 @@
 export default function Header() {
+    //header functionality
   const upperHeader = document.querySelector("header");
   const subHeader = document.querySelector(".sub-header");
   const navElement = document.querySelector(".menu-nav");
@@ -18,4 +19,19 @@ export default function Header() {
       subHeader.classList.remove("sticky");
     }
   });
+
+  //Promotions pop up
+
+  const popUp = document.querySelector(".delivery-info");
+  const promoMsg = document.querySelector(".delivery-time");
+  console.log(promoMsg);
+  promoMsg.addEventListener("mouseover",()=> {
+      popUp.style.display="block";
+      popUp.style.transform="translateY(0px)"
+     
+  })
+  promoMsg.addEventListener("mouseleave",()=> {
+      popUp.style.display="none";
+  })
+  
 }

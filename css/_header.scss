@@ -29,6 +29,7 @@ header {
     }
 
     .promo-msg {
+        cursor: pointer;
       height: 100%;
       flex-direction: column;
       line-height: 30px;
@@ -142,7 +143,9 @@ header {
     height: 150px;
     background: grey;
     position: absolute;
-    top: 90px;
+    top: 110px;
     left: 20%;
     z-index: 9999;
+    display: none;
+    transition: 1s ease-in;
 }

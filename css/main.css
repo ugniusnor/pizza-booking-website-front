@@ -96,6 +96,7 @@ header .header-container .header-logo span {
 }
 
 header .header-container .promo-msg {
+  cursor: pointer;
   height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -279,9 +280,12 @@ header .header-container .header-login:hover {
   height: 150px;
   background: grey;
   position: absolute;
-  top: 90px;
+  top: 110px;
   left: 20%;
   z-index: 9999;
+  display: none;
+  -webkit-transition: 1s ease-in;
+  transition: 1s ease-in;
 }
 
 .hero {
