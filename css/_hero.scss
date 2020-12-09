@@ -1,0 +1,34 @@
+.hero {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.glider-contain {
+  width: 98%;
+  justify-content: center;
+}
+.carousel-item {
+  width: 300px;
+  height: 320px !important;
+  border-radius: 30px !important;
+  img {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+  }
+}
+.glider-next {
+  right: 0;
+}
+.glider-prev {
+  left: 0;
+}
+.dots {
+  width: 30px;
+  height: 40px;
+  color: black;
+}
