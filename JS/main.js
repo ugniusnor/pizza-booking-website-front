@@ -4,3 +4,8 @@ Header();
 
 import carousel from "./components/hero/carousel.js";
 carousel();
+
+
+
+import getPizza from "./components/catalog/catalogPizza.js";
+getPizza();

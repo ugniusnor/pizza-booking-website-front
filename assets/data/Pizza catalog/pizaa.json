@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "productName": "Margarita",
+        "imageURL":"./assets/img/picos/pica2.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
+        "price": "8.50",
+        "isActive": true,
+        "tags":false,
+        "isSpicy":false
+        
+    },
+    {
+        "id": 2,
+        "productName": "Margarita",
+        "imageURL":"./assets/img/picos/pica2.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
+        "price": "8.50",
+        "isActive": true,
+        "tags":false,
+        "isSpicy":false
+        
+    },
+    {
+        "id": 3,
+        "productName": "Margarita",
+        "imageURL":"./assets/img/picos/pica2.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
+        "price": "8.50",
+        "isActive": true,
+        "tags":false,
+        "isSpicy":false
+        
+    },
+    {
+        "id": 4,
+        "productName": "Margarita",
+        "imageURL":"./assets/img/picos/pica2.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
+        "price": "8.50",
+        "isActive": true,
+        "tags":false,
+        "isSpicy":false
+        
+    },
+    {
+        "id": 5,
+        "productName": "Margarita",
+        "imageURL":"./assets/img/picos/pica2.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
+        "price": "8.50",
+        "isActive": true,
+        "tags":false,
+        "isSpicy":false
+        
+    },
+    {
+        "id": 6,
+        "productName": "Margarita",
+        "imageURL":"./assets/img/picos/pica2.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
+        "price": "8.50",
+        "isActive": true,
+        "tags":false,
+        "isSpicy":false
+        
+    }
+]

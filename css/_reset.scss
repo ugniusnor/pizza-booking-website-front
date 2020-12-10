@@ -19,8 +19,8 @@ a {
 
 .section-container {
     width: 95%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
+.section-title {
+    margin: 20px 0;
+    font-size: 20px;
+}
