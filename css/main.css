@@ -15,7 +15,7 @@ a {
 }
 
 .section-container {
-  width: 85%;
+  width: 95%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -338,5 +338,97 @@ header .header-container .header-login:hover {
   width: 30px;
   height: 40px;
   color: black;
+}
+
+.catalog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.catalog .section-container {
+  margin-top: 40px;
+}
+
+.catalog .section-container .pizza-catalog {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.catalog .section-container .pizza-catalog .catalog-item {
+  height: 400px;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.catalog .section-container .pizza-catalog .catalog-item d
+img {
+  width: 80%;
+  margin: auto;
+}
+
+.catalog .section-container .pizza-catalog .catalog-item p {
+  text-align: left;
+}
+
+.catalog .section-container .pizza-catalog .catalog-item .item-card-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.catalog .section-container .pizza-catalog .catalog-item .item-card-bottom span {
+  font-weight: bold;
+}
+
+.catalog .section-container .pizza-catalog .catalog-item .item-card-bottom .add-to-basket-button {
+  cursor: pointer;
+  background: #fff0e6;
+  height: 40px;
+  width: 130px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 16px;
+  padding: 8px 20px;
+  color: #d15700;
+  border-radius: 50px;
+}
+
+.catalog .section-container .pizza-catalog .catalog-item .item-card-bottom .add-to-basket-button:hover {
+  background: #eed0bc;
 }
 /*# sourceMappingURL=main.css.map */
