@@ -1,0 +1,52 @@
+[
+    {
+        "id": 14,
+        "filters":[],
+        "productName": "Bandelės",
+        "imageURL":"./assets/img/desserts/1.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
+        "price": "3.20",
+        "isActive": true,
+        "tags":false        
+    },
+    {
+        "id": 15,
+        "filters":[],
+        "productName": "Cheesecake",
+        "imageURL":"./assets/img/desserts/2.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
+        "price": "3.20",
+        "isActive": true,
+        "tags":false        
+    },
+    {
+        "id": 16,
+        "filters":[],
+        "productName": "Keksiukas",
+        "imageURL":"./assets/img/desserts/3.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
+        "price": "3.20",
+        "isActive": true,
+        "tags":false        
+    },
+    {
+        "id": 17,
+        "filters":[],
+        "productName": "Spurga",
+        "imageURL":"./assets/img/desserts/4.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
+        "price": "3.20",
+        "isActive": true,
+        "tags":false        
+    },
+    {
+        "id": 18,
+        "filters":[],
+        "productName": "Spurga",
+        "imageURL":"./assets/img/desserts/5.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
+        "price": "3.20",
+        "isActive": true,
+        "tags":false        
+    }
+]

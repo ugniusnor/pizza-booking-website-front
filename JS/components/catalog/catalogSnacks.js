@@ -1,9 +1,9 @@
 
 import getAPI from "./getAPI.js";
-function generatePizza() {
-    const catalog = document.querySelector(".pizza");
+function generateSnacks() {
+    const catalog = document.querySelector(".snacks");
     let HTML="";
-getAPI("../../../assets/data/product catalog/pizaa.json")
+getAPI("../../../assets/data/product catalog/snacks.json")
     .then(res=>{
         res.forEach(element => {
             if(element.isActive) {
@@ -31,4 +31,4 @@ getAPI("../../../assets/data/product catalog/pizaa.json")
 }
 
 
-export default generatePizza;
+export default generateSnacks;

@@ -1,8 +1,9 @@
 [
     {
         "id": 1,
+        "filters":[],
         "productName": "Margarita",
-        "imageURL":"./assets/img/picos/pica2.jpg",
+        "imageURL":"./assets/img/picos/pica1.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
         "price": "8.50",
         "isActive": true,
@@ -12,7 +13,8 @@
     },
     {
         "id": 2,
-        "productName": "Margarita",
+        "filters":[],
+        "productName": "Peperoni",
         "imageURL":"./assets/img/picos/pica2.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
         "price": "8.50",
@@ -23,8 +25,9 @@
     },
     {
         "id": 3,
-        "productName": "Margarita",
-        "imageURL":"./assets/img/picos/pica2.jpg",
+        "filters":[],
+        "productName": "Ranch",
+        "imageURL":"./assets/img/picos/pica3.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
         "price": "8.50",
         "isActive": true,
@@ -34,8 +37,9 @@
     },
     {
         "id": 4,
-        "productName": "Margarita",
-        "imageURL":"./assets/img/picos/pica2.jpg",
+        "filters":[],
+        "productName": "Cheesburger",
+        "imageURL":"./assets/img/picos/pica4.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
         "price": "8.50",
         "isActive": true,
@@ -45,8 +49,9 @@
     },
     {
         "id": 5,
-        "productName": "Margarita",
-        "imageURL":"./assets/img/picos/pica2.jpg",
+        "filters":[],
+        "productName": "Champion",
+        "imageURL":"./assets/img/picos/pica5.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
         "price": "8.50",
         "isActive": true,
@@ -56,13 +61,38 @@
     },
     {
         "id": 6,
-        "productName": "Margarita",
-        "imageURL":"./assets/img/picos/pica2.jpg",
+        "filters":[],
+        "productName": "DODO",
+        "imageURL":"./assets/img/picos/pica6.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
         "price": "8.50",
         "isActive": true,
         "tags":false,
         "isSpicy":false
+        
+    },
+    {
+        "id": 7,
+        "filters":[],
+        "productName": "Mexian",
+        "imageURL":"./assets/img/picos/pica7.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
+        "price": "8.50",
+        "isActive": true,
+        "tags":false,
+        "isSpicy":true
+        
+    },
+    {
+        "id": 8,
+        "filters":[],
+        "productName": "Vegetarian",
+        "imageURL":"./assets/img/picos/pica8.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
+        "price": "8.50",
+        "isActive": true,
+        "tags":false,
+        "isSpicy":true
         
     }
 ]

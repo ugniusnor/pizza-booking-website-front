@@ -9,3 +9,7 @@ carousel();
 
 import getPizza from "./components/catalog/catalogPizza.js";
 getPizza();
+import generateSnacks from "./components/catalog/catalogSnacks.js";
+generateSnacks();
+import generateDesserts from "./components/catalog/catalogDesserts.js";
+generateDesserts();
