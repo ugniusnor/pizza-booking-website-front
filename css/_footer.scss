@@ -1,0 +1,17 @@
+footer {
+    height: 30vh;
+    background-color: rgb(69, 75, 84);
+    @include flexCenter();
+    align-items: flex-start;
+    .upper-footer {
+        width: 90%;
+        border:1px solid red;
+        .app-stores {
+            width: 40%;
+            img {
+                width: 180px;
+                height: 83px;
+            }
+        }
+    }
+}

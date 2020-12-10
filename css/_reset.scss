@@ -10,7 +10,7 @@ padding: 0;
 vertical-align: top;
 box-sizing: border-box;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-word-break: break-all;
+
 }
 a {
     color: black;
@@ -20,6 +20,7 @@ a {
 .section-container {
     width: 90%;
     margin-left: 5%;
+    margin-top: 40px;
 }
 .section-title {
     margin: 20px 0;

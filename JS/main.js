@@ -13,3 +13,5 @@ import generateSnacks from "./components/catalog/catalogSnacks.js";
 generateSnacks();
 import generateDesserts from "./components/catalog/catalogDesserts.js";
 generateDesserts();
+import generateDrinks from "./components/catalog/catalogDrinks.js";
+generateDrinks();

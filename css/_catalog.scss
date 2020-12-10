@@ -1,8 +1,7 @@
 .catalog {
- margin-left: 5%;
- margin-right: 5%;
+
   .section-container {
-      margin-top: 40px;
+
     .product-catalog {
       margin: auto;
         width: 100%;
@@ -42,6 +41,7 @@
       }
       .add-to-basket-button {
           cursor: pointer;
+          margin-right: 10px;
           background: rgb(255, 240, 230);
           height: 40px;
           width: 130px;
