@@ -23,7 +23,6 @@ getAPI("../../../assets/data/product catalog/desserts.json")
             catalog.innerHTML=HTML;
         });
       
-        console.log(res)
     })
         .catch(err=>{
             console.error("Gor error while fetching data" + err);

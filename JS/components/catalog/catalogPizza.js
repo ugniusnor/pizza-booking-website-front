@@ -22,8 +22,6 @@ getAPI("../../../assets/data/product catalog/pizaa.json")
            
             catalog.innerHTML=HTML;
         });
-      
-        console.log(res)
     })
         .catch(err=>{
             console.error("Gor error while fetching data" + err);

@@ -12,9 +12,7 @@ export default function Header() {
       navElement.style.transform = "translateX(0px)";
     } else {
       upperHeader.style.height = 15 + "vh";
-
       subHeader.style.position = "static";
-      console.log("show it");
       navElement.style.transform = "translateX(-44px)";
       subHeader.classList.remove("sticky");
     }
@@ -24,7 +22,6 @@ export default function Header() {
 
   const popUp = document.querySelector(".delivery-info");
   const promoMsg = document.querySelector(".delivery-time");
-  console.log(promoMsg);
   promoMsg.addEventListener("mouseover",()=> {
       popUp.style.display="block";
       popUp.style.transform="translateY(0px)"

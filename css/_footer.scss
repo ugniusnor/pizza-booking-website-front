@@ -2,15 +2,52 @@ footer {
     height: 30vh;
     background-color: rgb(69, 75, 84);
     @include flexCenter();
-    align-items: flex-start;
+    // align-items: flex-start;
+    flex-direction: column;
     .upper-footer {
         width: 90%;
-        border:1px solid red;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid white;
         .app-stores {
             width: 40%;
             img {
                 width: 180px;
                 height: 83px;
+            }
+        }
+        .footer-contacts {
+            span {
+                color: rgb(168, 161, 161);
+            }
+          p {
+              height: 100%;
+              color: white;
+              line-height: 30px;
+              font-size: 20px;
+          }
+        }
+    }
+
+    .bottom-footer {
+        width: 90%;
+        @include flexCenter();
+        flex-direction: column;
+     
+        img {
+            width: 30px;
+            height: 30px;
+            margin: 10px 10px;
+        }
+        .policy {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: flex-start;
+            span {
+                margin: 0 30px;
             }
         }
     }
