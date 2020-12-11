@@ -22,9 +22,20 @@
           <p class="delivery-time">
             37 min <span>&#8226;</span> <span>4.8</span>
             <img src="./assets/img/star.svg" alt="" />
+           
           </p>
-          <div class="delivery-info"></div>
+          <div class="delivery-info">
+            <div class="info-container">
+                <div class="info-texts">
+                  <h2>35min</h2> <span>Vidutinis pristatymo laikas</span>
+                  <p>
+                    Jei mes nespėsime pristatyti per 60 minučių, kurjeris padovanos Jums Kuponą nemokamai picai!
+                  </p>
+                </div>
+            </div>
+          </div>
         </div>
+        
 
         <div class="header-contact">
           <p>Skambinti</p>
@@ -43,13 +54,12 @@
           />
 
           <ul>
-            <li>Pizzas</li>
-            <li>Snacks</li>
-            <li>Desserts</li>
-            <li>Drinks</li>
-            <li>Other</li>
-            <li>Promotions</li>
-            <li>Contacts</li>
+            <a href="#pizza">    <li>Pica</li> </a>
+            <a href="#snacks">    <li>Užkandžiai</li> </a>
+            <a href="#desserts">    <li>Desertai</li> </a>
+            <a href="#drinks">    <li>Gėrimai</li> </a>
+            <a href="#">    <li>Akcijos</li> </a>
+            <a href="#contacts">    <li>Kontaktai</li> </a>
           </ul>
         </div>
 
@@ -84,19 +94,19 @@
     <div class="catalog">
       <div class="section-container">
         <div class="section-title">
-          <h3>Picos</h3>
+          <h3 id="pizza">Picos</h3>
         </div>
         <div class="product-catalog pizza"></div>
         <div class="section-title">
-          <h3>Užkandžiai</h3>
+          <h3 id="snacks">Užkandžiai</h3>
         </div>
         <div class="product-catalog snacks"></div>
         <div class="section-title">
-          <h3>Desertai</h3>
+          <h3 id="desserts">Desertai</h3>
         </div>
         <div class="product-catalog desserts"></div>
         <div class="section-title">
-          <h3>Gėrimai</h3>
+          <h3 id="drinks">Gėrimai</h3>
         </div>
         <div class="product-catalog drinks"></div>
       </div>
@@ -105,7 +115,7 @@
 
 
 
-    <div class="delivery-section">
+    <div id="contacts" class="delivery-section">
       <div class="section-container">
         <h2>Pristatymas ir apmokėjimas</h2>
         <div class="delivery-info-texts">
