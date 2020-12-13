@@ -1,0 +1,105 @@
+.pop_up {
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    height: 85%;
+    position: fixed;
+    z-index: 99999;
+    top: 50%;
+    bottom: 50%;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    .close-pop-up {
+      
+        background-image: url("../assets/img/icons/close.svg");
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 10px;
+        height: 10px;
+        padding: 10px;
+        margin: 10px;
+        color: black;
+        cursor: pointer;
+    }
+.pop-up-left {
+    width: 45%;
+    height: 90%;
+    @include flexCenter();
+        img {
+            width: 90%;
+            height: 80%;
+        }
+
+}
+.pop-up-right {
+    width: 45%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+        .ingridient-list {
+            margin: 20px 0;
+        }
+        .product-size {
+            width: 100%;
+            border-radius: 80px;
+            height: 40px;
+            background: grey;
+            @include flexCenter();
+           
+            cursor: pointer;
+                .container-size {
+                    height: 95%;
+                    width: 90%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-direction: row;
+                }
+       
+                .size-selected {
+                    @include flexCenter();
+                    width: 25%;
+                    background-color: white;
+                    border-radius: 100px;
+                    height: 95%;
+                }
+        }
+        h3 {
+            margin: 15px 0;
+        }
+        .add-ons {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            .add-on-choise {
+                width: 28%;
+                height: 100px;
+                background: wheat;
+                border-radius: 10px;
+                
+            }
+        }
+}
+}
+.overLay {
+    background-color:rgba(167,163,163,0.65);
+    z-index: 999;
+    width: 100%;
+    height: 10000%;
+    position: absolute;
+    top: 0;
+    display: none;
+ 
+}

@@ -142,14 +142,49 @@ this.isLoaded=false;
                 })
         }
 
+
+
+        //functions for Catalog pop up window
+
         popUp(element) {
         const elements = document.querySelectorAll(element);
         elements.forEach(element => {
             element.addEventListener("click",()=> {
-                console.log("labas")
+              const popUp = document.querySelector(".pop_up");
+              popUp.style.display="flex";
+              const overLay = document.querySelector(".overLay");
+              overLay.style.display="block";
+              this.noScroll();
+              const close = document.querySelector(".close-pop-up");
+                close.addEventListener('click',()=> {
+                   this.closePopUp();
+                })
             })
         });
         }
+
+
+
+     noScroll() {
+        const body= document.querySelector("body");
+        body.style.height=100+"vh";
+        body.style.overflow="hidden";
+     }
+    yesScroll() {
+        const body= document.querySelector("body");
+        body.style.height="initial";
+        body.style.overflow="initial";
+    }
+          
+    closePopUp () {
+        const popUp = document.querySelector(".pop_up");
+        popUp.style.display="none";
+        const overLay = document.querySelector(".overLay");
+        overLay.style.display="none";
+        this.yesScroll();
+    }
+
+    
       
 }
 
