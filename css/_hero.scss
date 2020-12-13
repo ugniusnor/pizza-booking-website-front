@@ -8,11 +8,11 @@
   margin-top: 30px;
 }
 .glider-contain {
-  width: 98%;
+  width: 90%;
   justify-content: center;
 }
 .carousel-item {
-  width: 300px;
+
   height: 320px !important;
   border-radius: 30px !important;
   img {
@@ -23,9 +23,15 @@
 }
 .glider-next {
   right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
 }
 .glider-prev {
   left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
 }
 .dots {
   width: 30px;

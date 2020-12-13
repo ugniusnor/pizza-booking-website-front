@@ -249,6 +249,7 @@ header .header-container .header-login:hover {
 }
 
 .sub-header .header-container .basket {
+  position: relative;
   cursor: pointer;
   background: #ff6900;
   height: 40px;
@@ -263,6 +264,10 @@ header .header-container .header-login:hover {
 
 .sub-header .header-container .basket:hover {
   opacity: 90%;
+}
+
+.sub-header .header-container .basket:hover .empty-basket {
+  display: block;
 }
 
 #location {
@@ -333,14 +338,13 @@ header .header-container .header-login:hover {
 }
 
 .glider-contain {
-  width: 98%;
+  width: 90%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
 .carousel-item {
-  width: 300px;
   height: 320px !important;
   border-radius: 30px !important;
 }
@@ -353,10 +357,18 @@ header .header-container .header-login:hover {
 
 .glider-next {
   right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: white;
 }
 
 .glider-prev {
   left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: white;
 }
 
 .dots {
@@ -376,6 +388,7 @@ header .header-container .header-login:hover {
 }
 
 .catalog .catalog-item {
+  cursor: pointer;
   height: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
