@@ -7,7 +7,7 @@ class Catalog  {
     constructor() {
 this.init=this.generateCatalog();
 
-
+  
             }   
 
 
