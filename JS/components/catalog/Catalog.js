@@ -24,7 +24,7 @@ this.init=this.generateCatalog();
         generatePizza() {
             const catalog = document.querySelector(".pizza");
             let HTML="";
-        getAPI("../../../assets/data/product catalog/pizaa.json")
+        getAPI("../../../assets/data/pizaa.json")
             .then(res=>{
                 res.forEach(element => {
                     if(element.isActive) {
@@ -54,7 +54,7 @@ this.init=this.generateCatalog();
         generateSnacks() {
             const catalog = document.querySelector(".snacks");
             let HTML="";
-        getAPI("../../../assets/data/product catalog/snacks.json")
+        getAPI("../../../assets/data/snacks.json")
             .then(res=>{
                 res.forEach(element => {
                     if(element.isActive) {
@@ -84,7 +84,7 @@ this.init=this.generateCatalog();
         generateDesserts() {
             const catalog = document.querySelector(".desserts");
             let HTML="";
-        getAPI("../../../assets/data/product catalog/desserts.json")
+        getAPI("../../../assets/data/desserts.json")
             .then(res=>{
                 res.forEach(element => {
                     if(element.isActive) {
@@ -114,7 +114,7 @@ this.init=this.generateCatalog();
         generateDrinks() {
             const catalog = document.querySelector(".drinks");
             let HTML="";
-        getAPI("../../../assets/data/product catalog/drinks.json")
+        getAPI("../../../assets/data/drinks.json")
             .then(res=>{
                 res.forEach(element => {
                     if(element.isActive) {
