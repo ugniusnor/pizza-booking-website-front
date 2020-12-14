@@ -6,17 +6,17 @@ import getAPI from "./getAPI.js";
 class Catalog  {
     constructor() {
 this.init=this.generateCatalog();
-this.isLoaded=false;
+
 
             }   
 
 
-       async generateCatalog() {
-            await this.generatePizza();
-            await this. generateSnacks();
-            await this.generateDesserts();
-            await this.generateDrinks();
-            this.isLoaded=true;
+        generateCatalog() {
+             this.generatePizza();
+             this. generateSnacks();
+             this.generateDesserts();
+             this.generateDrinks();
+            
          
            
         }
