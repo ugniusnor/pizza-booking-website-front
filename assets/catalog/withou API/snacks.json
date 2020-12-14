@@ -1,0 +1,62 @@
+[
+    {
+        "id": 9,
+        "filters":[],
+        "productName": "Brusketa",
+        "imageURL":"./assets/img/snacks/1.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
+        "price": "8.50",
+        "isActive": true,
+        "tags":false,
+        "isSpicy":false
+        
+    },
+    {
+        "id": 10,
+        "filters":[],
+        "productName": "Cezario Salotos",
+        "imageURL":"./assets/img/snacks/2.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
+        "price": "8.50",
+        "isActive": true,
+        "tags":false,
+        "isSpicy":false
+        
+    },
+    {
+        "id": 11,
+        "filters":[],
+        "productName": "Veggie kebabDešrainis",
+        "imageURL":"./assets/img/snacks/3.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
+        "price": "8.50",
+        "isActive": true,
+        "tags":false,
+        "isSpicy":false
+        
+    },
+    {
+        "id": 12,
+        "filters":[],
+        "productName": "KebabDešrainis",
+        "imageURL":"./assets/img/snacks/4.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
+        "price": "8.50",
+        "isActive": true,
+        "tags":false,
+        "isSpicy":false
+        
+    },
+    {
+        "id": 13,
+        "filters":[],
+        "productName": "Bulvytės",
+        "imageURL":"./assets/img/snacks/5.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit aspernatur?",
+        "price": "8.50",
+        "isActive": true,
+        "tags":false,
+        "isSpicy":false
+        
+    }
+]

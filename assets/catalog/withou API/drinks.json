@@ -1,0 +1,43 @@
+[
+
+    {
+        "id": 19,
+        "filters":[],
+        "productName": "Coca-cola",
+        "imageURL":"./assets/img/drinks/1.jpg",
+        "quantity":"0.5l",
+        "price": "3.20",
+        "isActive": true,
+        "tags":false        
+    },
+    {
+        "id": 20,
+        "filters":[],
+        "productName": "Fanta",
+        "imageURL":"./assets/img/drinks/2.jpg",
+        "quantity":"0.5l",
+        "price": "3.20",
+        "isActive": true,
+        "tags":false        
+    },
+    {
+        "id": 21,
+        "filters":[],
+        "productName": "Sprite",
+        "imageURL":"./assets/img/drinks/3.jpg",
+        "quantity":"0.5l",
+        "price": "3.20",
+        "isActive": true,
+        "tags":false        
+    },
+    {
+        "id": 22,
+        "filters":[],
+        "productName": "Sprite",
+        "imageURL":"./assets/img/drinks/1.jpg",
+        "quantity":"1l",
+        "price": "3.20",
+        "isActive": true,
+        "tags":false        
+    }
+]

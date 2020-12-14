@@ -1,6 +1,6 @@
 
 import getAPI from "./getAPI.js";
-
+import PizzaData from "../../../assets/catalog/withou API/pizza.js"
 
 
 class Catalog  {
@@ -24,9 +24,7 @@ this.init=this.generateCatalog();
         generatePizza() {
             const catalog = document.querySelector(".pizza");
             let HTML="";
-        getAPI("./assets/catalog/pizaa.json")
-            .then(res=>{
-                res.forEach(element => {
+                PizzaData.forEach(element => {
                     if(element.isActive) {
                         HTML+=`
                         <div class="catalog-item">
@@ -42,13 +40,11 @@ this.init=this.generateCatalog();
                     }
                    
                     catalog.innerHTML=HTML;
-                });
+            
                this.popUp(".pizza > .catalog-item");
                 
             })
-                .catch(err=>{
-                    console.error("Gor error while fetching data" + err);
-                })
+               
         }
 
         generateSnacks() {
